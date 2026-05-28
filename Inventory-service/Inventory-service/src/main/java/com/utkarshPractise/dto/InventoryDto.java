@@ -2,8 +2,7 @@ package com.utkarshPractise.dto;
 
 import javax.validation.constraints.PositiveOrZero;
 
-import com.sun.istack.NotNull;
-
+import javax.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 @NoArgsConstructor

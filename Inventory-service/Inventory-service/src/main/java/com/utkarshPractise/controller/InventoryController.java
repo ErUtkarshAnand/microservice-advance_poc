@@ -14,8 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.utkarshPractise.dto.InventoryDto;
 import com.utkarshPractise.service.InventoryService;
 
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
-
+import org.springframework.web.bind.annotation.RequestBody;
 @RestController
 @RequestMapping("/inventory")
 public class InventoryController {
